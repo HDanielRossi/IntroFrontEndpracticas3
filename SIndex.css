@@ -1,0 +1,400 @@
+* {
+    box-sizing: border-box;
+}
+
+
+#logo{
+    padding: 10px;
+    float: left;
+    height: 18%;
+    width: 18%;
+}
+
+.header a{
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+    padding: 30px;
+}
+
+#container{  
+    overflow: hidden;
+    background-color: #ebebeb;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.header{
+    text-align: right;
+    font-family: "Helvetica";
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 0 0 0;
+    
+}
+
+#hoax-buster-button{
+    background-color: #1aa7a7; 
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#best-protection{
+    background-color: #1aa7a7; 
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#selected-vaccines{
+    background-color: #1aa7a7; 
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    margin: 0 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+#schedule-vaccine{
+    background-color: #1aa7a7; 
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+body{
+    background-image: url(../ASSETS/1x/background1.png);
+    background-repeat: repeat-x;
+    background-origin: content-box;
+    color: rgb(100, 100, 100);
+    text-align: left;
+    font-family: "Helvetica";
+    font-size: 15px;
+    margin: 80px;
+    padding: 0;
+}
+
+h1{
+    color: rgb(35, 182, 182);
+    font-size: 50px;
+}
+h2{
+    color: rgb(35, 182, 182);
+}
+
+h3{
+    color: rgb(35, 182, 182);
+}
+
+#left-body{
+    color: rgb(100, 100, 100);
+    line-height: 1.4;
+    text-align: left;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0;
+    padding: 80px 0 70px 0;
+}
+#table-location{
+    color: rgb(7, 7, 7)
+}
+
+#table-location:hover{
+    color: rgb(255, 255, 255)
+}
+
+#location-vaccine-info{
+    overflow-y: hidden;
+    position: absolute;
+    background-color: #ebebeb;
+    padding: 30px 0 0 60px;
+    border-radius: 10px;
+    opacity: 0.7;
+    text-align: right;
+    width: 60%;
+    box-shadow: 10px 10px 50px;
+}
+
+#location-vaccine-info:hover{
+    background-color:rgb(35, 182, 182)
+}
+
+#schedule-vaccine-button{
+    background-color: #1aa7a7; 
+    border: none;
+    color: rgb(240, 240, 240);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 0;
+}
+
+#right-body-img{
+    float: right;
+    height: 45%;
+    width: 45%;
+    box-shadow: 10px 10px 20px;
+}
+
+#vaccines-img{
+    text-align: center;
+    opacity: 0.4;
+}
+
+#text-paragraphl-low{
+    color: rgb(100, 100, 100);
+    line-height: 1.4;
+    text-align: left;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0;
+    padding: 80px 0 50px 0;
+}
+
+#container2{
+    padding: 0;
+}
+
+.tittle-1{
+    text-align: left;
+
+}
+
+.icon-tab{
+    padding: 20px 0 5px 5px;
+}
+
+#square-1{
+    padding: 5px 30px 38px 30px;
+    margin: 10px 25px 0 25px;
+    background-color: rgb(193, 250, 252);
+    opacity: 1;
+    width: 20%;
+    float: left;
+}
+
+#square-1:hover{
+    background-color: rgb(219, 254, 255);
+    box-shadow: 10px 10px 20px;
+}
+
+#square-2{
+    padding: 5px 30px 72px 30px;
+    margin: 10px 25px 0 25px;
+    background-color: rgb(193, 250, 252);
+    opacity: 1;
+    width: 20%;
+    float: left;
+}
+
+#square-2:hover{
+    background-color: rgb(219, 254, 255);
+    box-shadow: 10px 10px 20px;
+}
+
+#square-3{
+    padding: 5px 21px 55px 30px;
+    margin: 10px 25px 0 25px;
+    background-color: rgb(193, 250, 252);
+    opacity: 1;
+    width: 20%;
+    float: left;
+}
+
+#square-3:hover{
+    background-color: rgb(219, 254, 255);
+    box-shadow: 10px 10px 20px;
+}
+
+#square-4{
+    padding: 5px 30px 56px 30px;
+    margin: 10px 25px 0 25px;
+    background-color: rgb(193, 250, 252);
+    opacity: 1;
+    width: 20%;
+    float: left;
+}
+
+#square-4:hover{
+    background-color: rgb(219, 254, 255);
+    box-shadow: 10px 10px 20px;
+}
+
+#container2:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#pane-right{
+    padding: 5px;
+    float: right;
+}
+
+#pane-right:after{
+    display: block;
+    clear: both;
+}
+
+#img-pane-right{
+    width: 50%;
+    height: 50%;
+    float: left; 
+}
+
+#p1 a{
+    text-decoration: none;
+    line-height: 6
+}
+
+#p1 {
+    float: right;
+    padding: 20px 20px 20px 20px;
+    margin: 227px 150px 20px 20px;
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+    background-color: rgb(219, 254, 255);
+}
+.button-pane{
+    background-color: #1aa7a7; 
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#pane-general{
+    padding: 0;
+    margin: -100 0 0 0;
+
+}
+#pane-general:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+#right-body{
+    color: rgb(100, 100, 100);
+    line-height: 1.4;
+    text-align: left;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 17px;
+    float: right;
+    margin: 0 0 -150px 0;
+}
+
+
+#emergency{
+    padding: 30px;
+
+}
+
+#emergency-contact{
+    color: rgb(100, 100, 100);
+    line-height: 1.4;
+    text-align: left;
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 17px;
+    margin: 100px 0 -150px 0;
+ 
+}
+
+
+.row {
+    margin: 328px -16px -20px;
+    width: 50%;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 20px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: rgb(193, 250, 252);
+    padding: 30px;
+  }
+.content:hover{
+    background-color: rgb(219, 254, 255)
+
+}
+
+#img-bottom{
+    float: right; 
+    width: 50%;
+    height: 50%;
+    margin: 0 0 100px 0;
+}
+
+button{
+    background-color: #1aa7a7; 
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+p{
+    font-weight: bold;
+}
+
+#footer-table{
+    background-color: #ebebeb;
+    padding: 20px 10px 10px;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
